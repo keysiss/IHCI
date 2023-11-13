@@ -36,7 +36,7 @@
 
             <h1 style="  width: 100%; text-align: center; color:darkslategray">Gestión de Compras IHCI</h1>
                
-            <form action="../Gestionmain/login/login.php" method="post">
+            <form action="../IHCI/login/login.php" method="post">
                 <div id="login" >
                     <div class="container">
                         <div id="login-row" class="row justify-content-center align-items-center">
