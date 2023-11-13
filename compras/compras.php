@@ -93,9 +93,10 @@
          
       <img src="../imagen/IHCIS.jpg" alt="Logo 1" style="width: 60px; position: absolute; top: 0; left: 0; margin-left: 30px;">
 
-      <div class="centered-content" style="display: inline-block; text-align: center;">
-         <p style="margin-bottom: -20px;"><strong>INSTITUTO HONDUREÑO DE CULTURA INTERAMERICANA</strong></p>
-         <p><strong>RTN 08019995223469</strong></p>
+      <div class="centered-content" style="display: inline-block; text-align: center; margin: 0; padding: 0;">
+         <p style="margin: 0;"><strong>INSTITUTO HONDUREÑO DE CULTURA INTERAMERICANA</strong></p>
+         <p style="margin: 0;"><strong>RTN 08019995223469</strong></p>
+          <p style="margin: 0; color: blue;"><strong>SOLICITUD COMPRAS</strong></p>
        </div>
 
        <img src="../imagen/IHCI1.jpg" alt="Logo 2" style="width: 70px; position: absolute; top: 0; right: 0; margin-right: 140px;">
@@ -131,7 +132,7 @@
         
         <form action="guardar_orden.php" method="POST">
         <p style="display: flex; justify-content: space-between;">
-    <span>Orden de Compra Nº: <?php echo $nuevo_numero_orden; ?></span>
+    <span>Nº de Pedido: <?php echo $nuevo_numero_orden; ?></span>
    
 
 
