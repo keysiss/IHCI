@@ -97,7 +97,7 @@
          <p style="margin: 0;"><strong>INSTITUTO HONDUREÑO DE CULTURA INTERAMERICANA</strong></p>
          <p style="margin: 0;"><strong>RTN 08019995223469</strong></p>
           <p style="margin: 0; color: blue;"><strong>SOLICITUD COMPRAS</strong></p>
-       </div>
+       </div> 
 
        <img src="../imagen/IHCI1.jpg" alt="Logo 2" style="width: 70px; position: absolute; top: 0; right: 0; margin-right: 140px;">
 
