@@ -120,6 +120,16 @@
         font-size: 24px; /* Tamaño del icono, ajusta según tus necesidades */
     }
 
+    .boton-azul {
+        text-decoration: none; /* Para quitar el subrayado en el enlace */
+        background-color: blue;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
     </style>
 </head>
 <body>
@@ -254,9 +264,10 @@
     <div class="order-signature">
         <p>Firma del solicitante: _________________________________</p>
     </div>
-    <p><a href="../compras/ordenes_compras.php">Regresar</a></p>
+    <br><br>
+    <p><a href="../compras/ordenes_compras.php" class="boton-azul">Regresar</a></p>
 
-
+    <br><br><br><br><br><br>
       <!-- Pie de página -->
       <footer>
     <div style="text-align: center; margin-top: 20px;">
