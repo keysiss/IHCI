@@ -84,7 +84,25 @@
         
     }
 
-  
+    .botones-container {
+        display: flex;
+    }
+
+    .boton-azul,
+    .boton-verde {
+        background-color: blue;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none; /* Para quitar el subrayado en el enlace */
+        margin-right: 10px; /* Espaciado entre los botones */
+    }
+
+    .boton-verde {
+        background-color: green;
+    }
 
 </style>
 </head>
@@ -232,8 +250,13 @@
         <p>Firma del solicitante: _________________________________</p>
     </div>
     <br><br><br>
-    <input type="submit" value="Guardar">
-    <p><a href="ordenes_compras.php">Regresar</a></p>
+    <div class="botones-container">
+    <form action="tu_accion.php" method="post">
+        <input type="submit" class="boton-verde" value="Guardar">
+    </form>
+
+    <a href="ordenes_compras.php" class="boton-azul">Regresar</a>
+</div>
 </form>
     <script>
     $(document).ready(function() {
