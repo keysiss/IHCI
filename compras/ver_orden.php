@@ -129,11 +129,11 @@
     <img src="data:image/jpeg;base64,<?php echo base64_encode(file_get_contents('../imagen/IHCIS.jpg')); ?>" alt="Logo 1" style="width: 80px; position: absolute; top: 0; left: 0; margin-left: 30px;">
 
    
-         <div class="centered-content" style="display: inline-block; text-align: center;">
-            <p style="margin-bottom: -20px;"><strong>INSTITUTO HONDUREÑO DE CULTURA INTERAMERICANA</strong></p>
-            <p ><strong>RTN 08019995223469</strong></p>
-            <p ><strong>Solicitud de Compra</strong></p>
-          </div>
+        <div class="centered-content" style="display: inline-block; text-align: center; margin: 0; padding: 0;">
+         <p style="margin: 0;"><strong>INSTITUTO HONDUREÑO DE CULTURA INTERAMERICANA</strong></p>
+         <p style="margin: 0;"><strong>RTN 08019995223469</strong></p>
+          <p style="margin: 0; color: blue;"><strong>SOLICITUD COMPRAS</strong></p>
+       </div> 
    
           <img src="data:image/jpeg;base64,<?php echo base64_encode(file_get_contents('../imagen/IHCI1.jpg')); ?>" alt="Logo 2" style="width: 80px; position: absolute; top: 0; right: 0; margin-right: 90px;">
           
@@ -257,6 +257,27 @@
     <p><a href="../compras/ordenes_compras.php">Regresar</a></p>
 
 
+      <!-- Pie de página -->
+      <footer>
+    <div style="text-align: center; margin-top: 20px;">
+        <div style="display: inline-block; text-align: left; width: 30%;">
+            <p style="margin: 0; font-size: 11px;">IHCI Comayagüela:</p>
+            <p style="margin: 0; font-size: 11px;">2da. Avenida, Calle Real, entre 5ta y 6ta calle</p>
+            <p style="margin: 0; font-size: 11px;">Tel: 2220-1393</p>
+        </div>
+        <div style="display: inline-block; text-align: center; width: 30%;">
+            <p style="margin: 0; font-size: 11px;">IHCI Tegucigalpa:</p>
+            <p style="margin: 0; font-size: 11px;">Col. Matamoros Ave. Santader</p>
+            <p style="margin: 0; font-size: 11px;">Tel: 2221-1406</p>
+        </div>
+        <div style="display: inline-block; text-align: right; width: 30%;">
+            <p style="margin: 0; font-size: 11px;">IHCI Comayagua:</p>
+            <p style="margin: 0; font-size: 11px;">Calle hacia el Comayagua Golf Club</p>
+            <p style="margin: 0; font-size: 11px;">Tel: 2772-7772</p>
+        </div>
+       
+    </div>
+</footer>
     </div>  
 </body>
 </html>
